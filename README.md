@@ -30,17 +30,17 @@ The HTTP proxy for Amazon EKS worker nodes can be automated via the link below
 https://aws.amazon.com/premiumsupport/knowledge-center/eks-http-proxy-configuration-automation/
 
 You must create and add endpoints for the following:
-Amazon Elastic Container Registry (Amazon ECR)
-Amazon Simple Storage Service (Amazon S3)
-Amazon Elastic Compute Cloud (Amazon EC2)
-Amazon Virtual Private Cloud (Amazon VPC)
+- Amazon Elastic Container Registry (Amazon ECR)
+- Amazon Simple Storage Service (Amazon S3)
+- Amazon Elastic Compute Cloud (Amazon EC2)
+- Amazon Virtual Private Cloud (Amazon VPC)
 
 For example, you can use the following endpoints:
-api.ecr.ap-southeast-1.amazonaws.com
-dkr.ecr.ap-southeast-1.amazonaws.com
-s3.amazonaws.com
-.s3.ap-southeast-1.amazonaws.com
-ec2.ap-southeast-1.amazonaws.com
+- api.ecr.ap-southeast-1.amazonaws.com
+- dkr.ecr.ap-southeast-1.amazonaws.com
+- s3.amazonaws.com
+- s3.ap-southeast-1.amazonaws.com
+- ec2.ap-southeast-1.amazonaws.com
 
 ![img3]
 
