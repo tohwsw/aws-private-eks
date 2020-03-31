@@ -12,7 +12,7 @@ In this setup, the worker nodes are placed into private subnets. The workers sha
 
 ![img1]
 
-[img1]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-nonat.png
+[img1]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-nat.png
 
 ## 2. Private EKS with NAT gateways and Management VPC
 
@@ -44,4 +44,4 @@ ec2.ap-southeast-1.amazonaws.com
 
 ![img3]
 
-[img3]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-outsidebastion.png
+[img3]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-nonat.png
