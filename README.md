@@ -34,7 +34,7 @@ https://aws.amazon.com/premiumsupport/knowledge-center/eks-http-proxy-configurat
 
 [img3]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-proxy.png
 
-## 3. Private EKS with no internet
+## 4. Private EKS with no internet
 
 In this configuration, there are no NAT gateways and no proxies. The EKS setup is isolated.
 
