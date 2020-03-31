@@ -24,7 +24,7 @@ In this setup, the bastion host is no longer inside the same VPC (which has the 
 
 ## 3. Private EKS with Proxy
 
-In this configuration, there are no NAT gateways and internet gateway for outbound traffic. Instead all traffic must go through Proxy(for traffic filtering and monitoring), which could be in a shared services VPC. This means that worker nodes will not be able to pull the images required and also communicate with EC2 and ECR. We will require to set up the following:
+In this configuration, there are no NAT gateways and internet gateway for outbound traffic. Instead all traffic must go through Proxy(for traffic filtering and monitoring), which could be in a shared services VPC. This means that worker nodes will need to go through the proxy able to pull the images required and also communicate with EC2 and ECR. We will require to set up the following:
 
 The HTTP proxy for Amazon EKS worker nodes can be automated via the link below
 https://aws.amazon.com/premiumsupport/knowledge-center/eks-http-proxy-configuration-automation/
