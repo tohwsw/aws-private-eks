@@ -6,3 +6,7 @@ To achieve more security, you may need to configure the Kubernetes cluster endpo
 
 This post discusses the different options for a private EKS setup and the necessary configurations to achieve them.
 
+![img1]
+
+[img1]:https://github.com/tohwsw/aws-private-eks/blob/master/private-eks-nonat.png
+
