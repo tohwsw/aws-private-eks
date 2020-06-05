@@ -46,9 +46,10 @@ You must create and add endpoints for the following:
 For example, you can use the following endpoints:
 - api.ecr.ap-southeast-1.amazonaws.com
 - dkr.ecr.ap-southeast-1.amazonaws.com
-- s3.amazonaws.com
-- .s3.ap-southeast-1.amazonaws.com
+- s3.ap-southeast-1.amazonaws.com
 - ec2.ap-southeast-1.amazonaws.com
+- sts.ap-southeast-1.amazonaws.com
+
 
 ![img4]
 
